@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production build outputs
+client/dist/
+dist/
+
+# Binaries and large executables
+server/bin/*.exe
+server/bin/cf.log
+
+# Uploaded sentry audio clips (generated dynamically during live testing)
+server/public/uploads/*
+!server/public/uploads/.gitkeep
+
+# Environment variables & sensitive config
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.cert
+
+# Local persistent SQLite database files (auto-generated & seeded on startup)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

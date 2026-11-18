@@ -1,0 +1,23 @@
+{
+  "name": "jungle-saathi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI + IoT Based Smart Forest Monitoring, Wildlife Protection & Emergency Response Management System",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "forest-monitoring",
+    "wildlife-protection",
+    "iot",
+    "esp32",
+    "lora",
+    "edge-ai",
+    "audio-classification",
+    "emergency-response"
+  ]
+}
+
